@@ -16,6 +16,8 @@ A validação de interface no Chromium ficou pendente porque o navegador não p�
 
 ## Conferência com o Supabase hospedado em 22/11/2026
 
+Lint e verificação de tipos também passaram nesta cópia local do projeto.
+
 - Migration aplicada. O painel listou as quatro políticas de `public.tarefas`, uma por operação do CRUD.
 - Retorno de confirmação local cadastrado. O Supabase Auth respondeu com o provedor de e-mail e a confirmação habilitados.
 - A consulta a `/rest/v1/tarefas` com a chave publicável e sem sessão recebeu HTTP 401, código `42501` de acesso negado.
@@ -47,7 +49,7 @@ Execute cada verificação no ambiente que vai demonstrar. Marque o item após e
 |---|---|---|---|
 | Exemplo de preenchimento: login | Navegador, conta fictícia | Pendente | Pendente |
 
-- Repositório: pendente
+- Repositório: [Caiog12/tarefas-acessiveis](https://github.com/Caiog12/tarefas-acessiveis)
 - Pull request: pendente
 - Execução do CI: pendente
 - Preview e produção: pendentes
