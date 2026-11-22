@@ -1,0 +1,36 @@
+:root {
+  color: #18283e;
+  background: #f2f5fa;
+  font: 1rem/1.55 system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; padding: clamp(.75rem, 4vw, 2rem); }
+main {
+  max-width: 42rem;
+  margin: clamp(.5rem, 5vw, 3rem) auto;
+  padding: clamp(1rem, 5vw, 2.5rem);
+  border: 1px solid #becade;
+  border-radius: 1rem;
+  background: white;
+}
+h1 { margin: 0 0 1rem; line-height: 1.2; }
+h2 { font-size: 1.25rem; }
+a { color: #174383; }
+form { display: grid; gap: .6rem; }
+label, .titulo { font-weight: 650; }
+input, button { font: inherit; border-radius: .4rem; min-height: 2.75rem; }
+input { width: 100%; border: 1px solid #65758c; padding: .5rem .75rem; color: inherit; }
+button { width: fit-content; padding: .5rem .9rem; border: 1px solid #174383; background: #174383; color: white; cursor: pointer; }
+button[aria-disabled="true"] { cursor: default; background: #e5eaf2; color: #384861; }
+.secundario { background: white; color: #174383; }
+.excluir, [role="alert"] { color: #9f2525; }
+.excluir { border-color: #9f2525; }
+:focus-visible { outline: 3px solid #a44308; outline-offset: 3px; }
+.nova-tarefa { margin-top: 1.5rem; }
+[role="status"]:empty, [role="alert"]:empty { margin: 0; }
+.conta, .titulo { overflow-wrap: anywhere; }
+ul { padding-left: 1.25rem; }
+li { padding: .75rem 0; border-top: 1px solid #d6e0ee; }
+.estado { display: block; }
+.acoes { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .5rem; }
